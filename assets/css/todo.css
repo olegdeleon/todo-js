@@ -5,19 +5,12 @@ body {
   background: linear-gradient(to left, #C9FFBF , #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-#container {
-  background: #f7f7f7;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-  margin: 100px auto;
-  width: 360px;
+p {
+  text-align: center;
 }
 
-.fa-trash {
-  padding-top: 10px;
-}
-
-.fa-plus {
-  float: right;
+a {
+  color: #e74c3c;
 }
 
 span {
@@ -30,15 +23,6 @@ span {
   width: 0;
   opacity: 0;
   transition: 0.2s linear;
-}
-
-.toggle {
-  display: none;
-}
-
-.completed {
-  color: #c2c2c2;
-  text-decoration: line-through;
 }
 
 h1 {
@@ -88,3 +72,28 @@ li:hover span {
 li:nth-child(2n) {
   background: #f7f7f7;
 }
+
+#container {
+  background: #f7f7f7;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  margin: 100px auto;
+  width: 360px;
+}
+
+.fa-trash {
+  padding-top: 10px;
+}
+
+.fa-plus {
+  float: right;
+}
+
+.toggle {
+  display: none;
+}
+
+.completed {
+  color: #c2c2c2;
+  text-decoration: line-through;
+}
+
